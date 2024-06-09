@@ -8,8 +8,7 @@ max_q = []
 n = int(input())
 
 for i in range(n):
-    # num = int(input())
-    if i%2 == 0:
+    if i % 2 == 0:
         heapq.heappush(max_q, -int(input()))
     else:
         heapq.heappush(min_q, int(input()))
